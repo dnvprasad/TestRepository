@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [actitime]" parallel="tests">
+  <parameter name="browser" value="chrome"/>
+  <test name="Test Runner-firefox">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.actitime.customerTest.CustomerTest"/>
+    </classes>
+  </test> <!-- Test Runner-firefox -->
+  <test name="Test Runner-chrome">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.actitime.customerTest.CustomerTest"/>
+    </classes>
+  </test> <!-- Test Runner-chrome -->
+  <test name="Test Runner-chrome(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.actitime.customerTest.CustomerTest">
+        <methods>
+          <include name="modifyCustomerTest"/>
+          <include name="configAT"/>
+          <include name="configBT"/>
+          <include name="configBT"/>
+          <include name="createCustomerTest"/>
+          <include name="deleteCustomerTest"/>
+          <include name="configBM"/>
+          <include name="configAM"/>
+        </methods>
+      </class> <!-- com.actitime.customerTest.CustomerTest -->
+    </classes>
+  </test> <!-- Test Runner-chrome(failed) -->
+</suite> <!-- Failed suite [actitime] -->

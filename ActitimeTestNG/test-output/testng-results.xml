@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="28211" started-at="2019-09-14T14:04:45Z" finished-at="2019-09-14T14:05:13Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="28211" started-at="2019-09-14T14:04:45Z" finished-at="2019-09-14T14:05:13Z">
+      <class name="com.actitime.userTest.UserTest">
+        <test-method status="PASS" signature="createUserTest()[pri:0, instance:com.actitime.userTest.UserTest@256216b3]" name="createUserTest" duration-ms="1" started-at="2019-09-14T19:35:13Z" finished-at="2019-09-14T19:35:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserTest -->
+        <test-method status="PASS" signature="deleteUserTest()[pri:0, instance:com.actitime.userTest.UserTest@256216b3]" name="deleteUserTest" duration-ms="1" started-at="2019-09-14T19:35:13Z" finished-at="2019-09-14T19:35:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUserTest -->
+        <test-method status="PASS" signature="modifyUserTest()[pri:0, instance:com.actitime.userTest.UserTest@256216b3]" name="modifyUserTest" duration-ms="2" started-at="2019-09-14T19:35:13Z" finished-at="2019-09-14T19:35:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyUserTest -->
+      </class> <!-- com.actitime.userTest.UserTest -->
+      <class name="com.actitime.customerTest.CreateCustomerTest">
+        <test-method status="PASS" signature="configBT()[pri:0, instance:com.actitime.customerTest.CreateCustomerTest@28f67ac7]" name="configBT" is-config="true" duration-ms="6653" started-at="2019-09-14T19:34:45Z" finished-at="2019-09-14T19:34:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBT -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.actitime.customerTest.CreateCustomerTest@28f67ac7]" name="configBM" is-config="true" duration-ms="4412" started-at="2019-09-14T19:34:51Z" finished-at="2019-09-14T19:34:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="CreateCustomerwithDesc()[pri:0, instance:com.actitime.customerTest.CreateCustomerTest@28f67ac7]" name="CreateCustomerwithDesc" duration-ms="3764" started-at="2019-09-14T19:34:56Z" finished-at="2019-09-14T19:34:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateCustomerwithDesc -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.actitime.customerTest.CreateCustomerTest@28f67ac7]" name="configAM" is-config="true" duration-ms="2538" started-at="2019-09-14T19:34:59Z" finished-at="2019-09-14T19:35:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.actitime.customerTest.CreateCustomerTest@28f67ac7]" name="configBM" is-config="true" duration-ms="3343" started-at="2019-09-14T19:35:02Z" finished-at="2019-09-14T19:35:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="createCustomerTest()[pri:0, instance:com.actitime.customerTest.CreateCustomerTest@28f67ac7]" name="createCustomerTest" duration-ms="2634" started-at="2019-09-14T19:35:05Z" finished-at="2019-09-14T19:35:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomerTest -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.actitime.customerTest.CreateCustomerTest@28f67ac7]" name="configAM" is-config="true" duration-ms="2540" started-at="2019-09-14T19:35:08Z" finished-at="2019-09-14T19:35:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:com.actitime.customerTest.CreateCustomerTest@28f67ac7]" name="configAC" is-config="true" duration-ms="2292" started-at="2019-09-14T19:35:11Z" finished-at="2019-09-14T19:35:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.actitime.customerTest.CreateCustomerTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
